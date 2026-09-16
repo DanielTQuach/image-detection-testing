@@ -1,5 +1,5 @@
-import { CameraViewer } from "@/components/camera-viewer";
+import { redirect } from "next/navigation";
 
 export default function Home() {
-  return <CameraViewer />;
+  redirect("/album-select");
 }

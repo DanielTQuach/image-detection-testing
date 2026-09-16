@@ -100,7 +100,7 @@ export function CameraViewer() {
   }
 
   return (
-    <div className="flex min-h-dvh flex-col bg-black text-white">
+    <div className="flex h-full min-h-0 flex-col bg-black text-white">
       <div className="relative min-h-0 flex-1 overflow-y-auto bg-neutral-950">
         <div className="flex min-h-[42vh] items-center justify-center bg-black">
           {selected ? (
